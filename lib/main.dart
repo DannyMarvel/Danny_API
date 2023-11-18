@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 
 import 'provider/authProvider/auth_provider.dart';
 import 'provider/database/db_provider.dart';
+import 'provider/taskprovider/add_task_provider.dart';
+import 'provider/taskprovider/delete_task_provider.dart';
 import 'styles/colors.dart';
 
 

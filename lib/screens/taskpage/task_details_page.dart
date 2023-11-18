@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../provider/taskprovider/delete_task_provider.dart';
 import '../../styles/colors.dart';
 import '../../utils/snack_message.dart';
 import '../../widgets/text_field.dart';
@@ -43,7 +44,7 @@ class _TaskDetailsPageState extends State<TaskDetailsPage> {
         ),
         actions: [
           Consumer<DeleteTaskProvider>(builder: (context, deleteTask, child) {
-            WidgetsBinding.instance!.addPostFrameCallback((_) {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
               if (deleteTask.getResponse != '') {
                 showMessage(message: deleteTask.getResponse, context: context);
 
