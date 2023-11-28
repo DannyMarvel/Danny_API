@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../styles/colors.dart';
 
-
 Widget customTextField(
     {String? title,
     String? hint,
@@ -30,12 +29,10 @@ Widget customTextField(
         child: TextFormField(
           controller: controller,
           maxLines: maxLines,
-          
-          
           decoration: InputDecoration(hintText: hint, border: InputBorder.none),
         ),
-      )
+      ),
+      Text(""),
     ],
   );
 }
-
