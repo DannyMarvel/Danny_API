@@ -32,7 +32,7 @@ Widget customTextField(
           decoration: InputDecoration(hintText: hint, border: InputBorder.none),
         ),
       ),
-      Text("")
+  
     ],
   );
 }

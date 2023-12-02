@@ -63,6 +63,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       controller: _password,
                       hint: 'Enter your secured password',
                     ),
+                    Text('h'),
 
                     ///Button
                     Consumer<AuthenticationProvider>(
