@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                       height: 10,
                     ),
                   
-                    Text(''),
+                    
                     GestureDetector(
                       onTap: () {
                         PageNavigator(ctx: context)
