@@ -94,11 +94,9 @@ class _LoginPageState extends State<LoginPage> {
                     Text(''),
                     Text(''),
                     Text(''),
-                    Container(),
-                    Container(),
-                    Container(),
-                    Container(),
-                    Container(),
+                    Text(''),
+                    Text(''),
+
                     Container(),
                     GestureDetector(
                       onTap: () {
