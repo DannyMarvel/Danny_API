@@ -86,9 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                     Text(''),
                     Text(''),
                     Text(''),
-                    Text(''),
-                    Text(''),
-                    Text(''),
+                  
                 
                     
                     
