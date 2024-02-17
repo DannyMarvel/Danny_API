@@ -90,6 +90,9 @@ class _LoginPageState extends State<LoginPage> {
                     
 
                     Container(),
+                    Container(),
+                    Container(),
+                    Container(),
                     GestureDetector(
                       onTap: () {
                         PageNavigator(ctx: context)
