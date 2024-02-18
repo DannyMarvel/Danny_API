@@ -82,17 +82,9 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(
                       height: 10,
                     ),
-                   
-                    
-                  
-                
-                    
-                    
-
-                    Container(),
-                    Container(),
-                    Container(),
-                    Container(),
+                   Text(''),
+                   Text(''),
+                   Text(''),
                     GestureDetector(
                       onTap: () {
                         PageNavigator(ctx: context)
