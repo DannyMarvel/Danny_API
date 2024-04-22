@@ -39,6 +39,7 @@ class _LoginPageState extends State<LoginPage> {
                   children: [
                     customTextField(
                       title: 'Email',
+                      title: 'Email',
                       controller: _email,
                       hint: 'Enter you valid email address',
                     ),
