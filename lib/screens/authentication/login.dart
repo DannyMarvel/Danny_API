@@ -86,34 +86,10 @@ class _LoginPageState extends State<LoginPage> {
                   Text(''),
                   Text(''),
                   
-          
-          
-              
-              
-                
-                
-                
-      
-                 
-      
-                  
-                  
-        
-      
-                  
-                
-              
-                
-              
             
-                  
-                
-                
-              
-
                     GestureDetector(
                       onTap: () {
-                        PageNavigator(ctx: context)
+                    PageNavigator(ctx: context)
                             .nextPage(page: const RegisterPage());
                       },
                       child: const Text('Register Instead'),

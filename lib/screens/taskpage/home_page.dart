@@ -87,6 +87,7 @@ class _HomePageState extends State<HomePage> {
               }
             }),
       ),
+      Text('Hello'),
       floatingActionButton: FloatingActionButton(
         mini: true,
         onPressed: () {
